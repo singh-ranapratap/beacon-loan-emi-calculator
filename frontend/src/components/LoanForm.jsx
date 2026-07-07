@@ -44,7 +44,7 @@ function LoanForm({ onCalculate, loading }) {
 
             <div>
                 <label className="block mb-2 font-medium">
-                    Loan Amount
+                    Loan Amount <span className="text-red-500">*</span>
                 </label>
 
                 <input
@@ -68,7 +68,7 @@ function LoanForm({ onCalculate, loading }) {
 
             <div>
                 <label className="block mb-2 font-medium">
-                    Annual Interest Rate (%)
+                    Annual Interest Rate (%) <span className="text-red-500">*</span>
                 </label>
 
                 <input
@@ -93,7 +93,7 @@ function LoanForm({ onCalculate, loading }) {
 
             <div>
                 <label className="block mb-2 font-medium">
-                    Tenure (Months)
+                    Tenure (Months) <span className="text-red-500">*</span>
                 </label>
 
                 <input
